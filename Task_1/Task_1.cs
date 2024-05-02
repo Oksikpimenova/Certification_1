@@ -5,8 +5,9 @@ string Len(int stop, int start)
     return start + " " + Len(stop, start + 1);
 }
 
-Console.WriteLine("Введите числа: m n ");
+Console.WriteLine("Введите число m");
 int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число n");
 int m = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(Len(m, n));
